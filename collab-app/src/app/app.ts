@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { Davidcomp } from './feature/feature2/davidcomp/davidcomp';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [Davidcomp],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

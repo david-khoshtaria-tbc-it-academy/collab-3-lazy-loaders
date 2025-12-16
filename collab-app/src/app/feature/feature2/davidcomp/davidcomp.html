@@ -1,0 +1,14 @@
+<h2>User Status Manager (Signals)</h2>
+
+<ul>
+  <li *ngFor="let user of users()">
+    {{ user.name }} —
+    <strong [style.color]="user.isActive ? 'green' : 'red'">
+      {{ user.isActive ? 'Active' : 'Inactive' }}
+    </strong>
+
+    <button (click)="toggle(user.id)">
+      Toggle
+    </button>
+  </li>
+</ul>
