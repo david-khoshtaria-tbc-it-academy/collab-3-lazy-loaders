@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Anicomp } from './anicomp';
+import { Anicomp } from '../anicomp';
 
 describe('Anicomp', () => {
   let component: Anicomp;
